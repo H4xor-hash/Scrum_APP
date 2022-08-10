@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:clickable="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".BlankFragment">
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="vertical"
+        android:background="@color/MyColor1">
+
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:src="@drawable/img"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:layout_marginTop="20dp">
+
+        <LinearLayout
+            android:id="@+id/nav_profile"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_marginLeft="15dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@drawable/ic_profile_nav"
+                android:layout_gravity="center"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textColor="@color/MyColor1"
+                android:textStyle="bold"
+                android:elevation="3dp"
+                android:text="PROFILE"
+                android:textSize="13sp"
+                android:gravity="center_vertical"
+                android:paddingLeft="20sp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:layout_marginTop="20dp">
+
+        <LinearLayout
+            android:id="@+id/nav_theme"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_marginLeft="15dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@drawable/ic_theme_nav"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textColor="@color/MyColor1"
+                android:textStyle="bold"
+                android:elevation="3dp"
+                android:text="THEME"
+                android:textSize="13sp"
+                android:gravity="center_vertical"
+                android:paddingLeft="20sp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:layout_marginTop="20dp">
+
+        <LinearLayout
+            android:id="@+id/nav_about"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_marginLeft="15dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@drawable/ic_info_nav"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textColor="@color/MyColor1"
+                android:textStyle="bold"
+                android:elevation="3dp"
+                android:text="ABOUT SCRUM"
+                android:textSize="13sp"
+                android:gravity="center_vertical"
+                android:paddingLeft="20sp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:layout_marginTop="20dp">
+
+        <LinearLayout
+            android:id="@+id/nav_credits"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_marginLeft="15dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@drawable/ic_credits_nav"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textColor="@color/MyColor1"
+                android:textStyle="bold"
+                android:elevation="3dp"
+                android:text="CREDITS"
+                android:textSize="13sp"
+                android:gravity="center_vertical"
+                android:paddingLeft="20sp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
+
+
+

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="MyColor1">#00a1f7</color>
+    <color name="MyColor2">#035581</color>
+
+
+    <!--color palete-->
+    <color name="myPurple">#9E6CF3</color>
+    <color name="orange">#F9966B</color>
+    <color name="yellow">#d0fc7d</color>
+    <color name="pink">#ed579a</color>
+    <color name="green">#2aed76</color>
+
+    <array name="demo_colors">
+        <item>@color/myPurple</item>
+        <item>@color/orange</item>
+        <item>@color/green</item>
+        <item>@color/pink</item>
+        <item>@color/yellow</item>
+
+    </array>
+
+
+</resources>

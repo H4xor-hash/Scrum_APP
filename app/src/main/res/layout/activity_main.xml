@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.drawerlayout.widget.DrawerLayout
+    android:id="@+id/my_dra"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity"
+        android:id="@+id/whole_main_layout">
+        <include
+            layout="@layout/my_toolbar"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/my_tool" />
+
+    
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+            android:id="@+id/swipe_refresh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/add"
+            android:layout_margin="16dp"
+            android:layout_gravity="end|bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/MyColor1"
+            app:tint="@android:color/white"
+            android:src="@drawable/ic_add"
+            />
+
+        </FrameLayout>
+    </LinearLayout>
+
+    <fragment
+        android:id="@+id/my_frag"
+        android:layout_width="280dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:name="com.example.mylogin.BlankFragment"
+        tools:layout="@layout/fragment_blank"
+        app:layout="@layout/fragment_blank"
+
+        />
+
+</androidx.drawerlayout.widget.DrawerLayout>
